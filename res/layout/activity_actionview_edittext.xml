@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="1sp"
+    >
+        
+            <EditText android:id="@+id/url_bar"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:inputType="textUri"
+                android:singleLine="true"
+                android:hint="Enter Search or Address"
+                android:text="@string/default_url"    
+                />
+            
+         
+            <Button android:id="@+id/clear_button"
+                android:layout_width="36dp"
+                android:layout_height="36dp"                
+                android:text="x"
+                android:background="#00000000"
+               
+                />
+</LinearLayout>
