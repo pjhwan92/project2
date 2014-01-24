@@ -1,0 +1,24 @@
+[submodule "external/tor"]
+	path = external/tor
+	url = https://git.torproject.org/git/tor.git
+[submodule "external/libevent"]
+	path = external/libevent
+	url = https://github.com/libevent/libevent.git
+[submodule "external/jtorctrl"]
+	path = external/jtorctrl
+	url = https://git.torproject.org/git/jtorctl
+[submodule "external/jtorctl"]
+	path = external/jtorctl
+	url = https://git.torproject.org/git/jtorctl
+[submodule "external/obfsproxy"]
+	path = external/obfsproxy
+	url = https://git.torproject.org/pluggable-transports/obfsproxy-legacy.git
+[submodule "external/ActionBarSherlock"]
+	path = external/ActionBarSherlock
+	url = https://github.com/JakeWharton/ActionBarSherlock.git
+[submodule "external/openssl"]
+	path = external/openssl
+	url = git://git.openssl.org/openssl
+[submodule "external/iptables"]
+	path = external/iptables
+	url = git://git.netfilter.org/iptables
